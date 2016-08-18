@@ -1,0 +1,464 @@
+﻿@import 'normalize.css';
+.award {
+  height: 35px;
+  line-height: 35px;
+  position: absolute;
+  top: 114px;
+  left: 145px;
+  color: #000;
+  font-size: 24px;
+}
+.award span {
+  max-width: 130px;
+  color: #ff669e;
+  margin: 0 15px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.btn {
+  width: 230px;
+  height: 70px;
+  position: absolute;
+}
+.btn1 {
+  left: 80px;
+}
+.btn2 {
+  left: 330px;
+}
+.left_time {
+  color: #000;
+  text-align: center;
+  position: absolute;
+  bottom: 158px;
+  left: 0;
+  right: 0;
+}
+.left_time span {
+  color: #ff669e;
+}
+.headerFake {
+  width: 100%;
+  height: 90px;
+  background-color: #ff4b73;
+}
+.header {
+  width: 100%;
+  height: 90px;
+  background-color: #ff4b73;
+  position: fixed;
+  top: 0;
+  z-index: 4;
+}
+.wrap {
+  margin: 0 auto;
+  width: 640px;
+}
+.banner {
+  height: 835px;
+  background: url("../img/banner.jpg") no-repeat;
+  position: relative;
+}
+.banner #userId {
+  width: 100%;
+  white-space: nowrap;
+  margin: 0 auto;
+  position: absolute;
+  top: 640px;
+  text-align: center;
+}
+.banner #userId span {
+  margin-left: 10px;
+}
+.banner .btn {
+  width: 320px;
+  height: 80px;
+  margin: 0 auto;
+  position: absolute;
+  top: 690px;
+  left: 0;
+  right: 0;
+}
+.m_gift {
+  height: 500px;
+  background: url("../img/a2.jpg") no-repeat;
+  position: relative;
+}
+.m_gift .glist1 {
+  width: 100%;
+  height: 204px;
+  background: url("../img/glist1.png") no-repeat;
+  position: absolute;
+  top: 117px;
+}
+.m_gift .glist1 .g {
+  width: 162px;
+  height: 41px;
+  line-height: 41px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  position: absolute;
+  top: 141px;
+}
+.m_gift .glist1 .g:nth-of-type(1) {
+  left: 70px;
+}
+.m_gift .glist1 .g:nth-of-type(2) {
+  left: 240px;
+}
+.m_gift .glist1 .g:nth-of-type(3) {
+  left: 410px;
+}
+.m_gift .btn_gift {
+  width: 320px;
+  height: 80px;
+  position: absolute;
+  left: 50%;
+  margin-left: -160px;
+  top: 349px;
+}
+.m_video {
+  height: 490px;
+  background: url("../img/a3.jpg") no-repeat;
+  position: relative;
+}
+.m_video #myVideo {
+  width: 480px;
+  height: 270px;
+  position: absolute;
+  left: 80px;
+  top: 119px;
+}
+.m_video .tip {
+  font-size: 19px;
+  color: #ff669e;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 58px;
+}
+.m_ernie {
+  height: 720px;
+  background: url("../img/a4.jpg") no-repeat;
+  position: relative;
+}
+.m_ernie .yao_area {
+  width: 640px;
+  height: 354px;
+  background: url("../img/yao.png") no-repeat;
+  position: absolute;
+  top: 167px;
+}
+.m_ernie .yao {
+  height: 230px;
+  width: 100px;
+  position: absolute;
+  top: 12px;
+  background: url("../img/y12.jpg") no-repeat;
+  background-repeat-y: initial;
+}
+.m_ernie .yao1 {
+  left: 115px;
+}
+.m_ernie .yao2 {
+  left: 270px;
+}
+.m_ernie .yao3 {
+  left: 425px;
+}
+.m_ernie .btn_yao {
+  width: 240px;
+  height: 80px;
+  position: absolute;
+  top: 441px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.m_ernie .btn {
+  bottom: 63px;
+}
+.m_scratch {
+  height: 610px;
+  background: url("../img/a1.jpg") no-repeat;
+  position: relative;
+}
+.m_scratch .cover {
+  width: 480px;
+  height: 240px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 172px;
+  background: url('../img/gua.png') no-repeat;
+}
+.m_scratch .cover .btn_gua {
+  width: 240px;
+  height: 80px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -120px;
+}
+.m_scratch #redux {
+  visibility: hidden;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
+.m_scratch #robot {
+  width: 480px;
+  height: 240px;
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+.m_scratch .btn {
+  top: 477px;
+}
+.m_squared {
+  height: 850px;
+  background: url("../img/a5.jpg") no-repeat;
+  position: relative;
+}
+.m_squared .gList2 {
+  width: 500px;
+  height: 440px;
+  background: url("../img/gList2.png") no-repeat;
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.m_squared li,
+.m_squared .btn_chou {
+  width: 160px;
+  height: 140px;
+  position: absolute;
+}
+.m_squared li span,
+.m_squared .btn_chou span {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+.m_squared .btn_chou {
+  top: 150px;
+  left: 170px;
+}
+.m_squared .g1,
+.m_squared .g2,
+.m_squared .g3 {
+  top: 0;
+}
+.m_squared .g4,
+.m_squared .btn_chou,
+.m_squared .g5 {
+  top: 50%;
+  margin-top: -70px;
+}
+.m_squared .g6,
+.m_squared .g7,
+.m_squared .g8 {
+  bottom: 0;
+}
+.m_squared .g1,
+.m_squared .g4,
+.m_squared .g6 {
+  left: 0;
+}
+.m_squared .g2,
+.m_squared .btn_chou,
+.m_squared .g7 {
+  left: 50%;
+  margin-left: -80px;
+}
+.m_squared .g3,
+.m_squared .g5,
+.m_squared .g8 {
+  right: 0;
+}
+.m_squared .active {
+  background: url("../img/active.png") no-repeat;
+}
+.m_squared .btn {
+  bottom: 65px;
+}
+.m_s_hor {
+  height: 520px;
+  background: url("../img/a6.jpg") no-repeat;
+  position: relative;
+}
+.m_s_hor .swiper-container {
+  width: 560px;
+  height: 315px;
+  position: absolute;
+  top: 119px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.m_s_hor .cindex {
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.m_s_hor .cindex span {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: #ff669e 1px solid;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.m_s_hor .cindex .swiper-active-switch {
+  background-color: #ff669e;
+}
+.m_s_ver {
+  height: 735px;
+  background: url("../img/a7.jpg") no-repeat;
+  position: relative;
+  overflow: hidden;
+  /*游戏截图展示*/
+}
+.m_s_ver .featured {
+  height: 532px;
+  padding-bottom: 25px;
+  margin-bottom: -12.5px;
+  top: 119px;
+}
+.m_s_ver .featured .swiper-slide {
+  height: 532px;
+  width: 300px;
+  background-size: 300px 532px;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5) 0px, rgba(0, 0, 0, 0) 26px);
+}
+.m_s_ver .swiper-container,
+.m_s_ver .swiper-wrapper,
+.m_s_ver .swiper-slide {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.m_s_ver .swiper-container {
+  -webkit-perspective: 1200px;
+  -moz-perspective: 1200px;
+  -o-perspective: 1200px;
+  perspective: 1200px;
+}
+.m_s_ver .swiper-wrapper {
+  /* Windows 8 IE 10 fix */
+  -ms-perspective: 1200px;
+}
+.m_s_ver .swiper-slide-shadow-left,
+.m_s_ver .swiper-slide-shadow-right,
+.m_s_ver .swiper-slide-shadow-top,
+.m_s_ver .swiper-slide-shadow-bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.m_s_ver .swiper-slide-shadow-left {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  /* Safari 4+, Chrome */
+  background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Chrome 10+, Safari 5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 3.6-15 */
+  background-image: -o-linear-gradient(right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Opera 11.10-12.00 */
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 16+, IE10, Opera 12.50+ */
+}
+.m_s_ver .swiper-slide-shadow-right {
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  /* Safari 4+, Chrome */
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Chrome 10+, Safari 5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 3.6-15 */
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Opera 11.10-12.00 */
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 16+, IE10, Opera 12.50+ */
+}
+.m_s_ver .swiper-slide-shadow-top {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  /* Safari 4+, Chrome */
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Chrome 10+, Safari 5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 3.6-15 */
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Opera 11.10-12.00 */
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 16+, IE10, Opera 12.50+ */
+}
+.m_s_ver .swiper-slide-shadow-bottom {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
+  /* Safari 4+, Chrome */
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Chrome 10+, Safari 5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 3.6-15 */
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Opera 11.10-12.00 */
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  /* Firefox 16+, IE10, Opera 12.50+ */
+}
+.m_rule p {
+  color: #000;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 10px;
+}
+.m_rule p:last-child {
+  padding-bottom: 33px;
+}
+.m_rule .title {
+  color: #ff669e;
+  font-size: 28px;
+}
+.m_follow {
+  height: 400px;
+  background: url("../img/a8.jpg") no-repeat;
+  color: #ff669e;
+  position: relative;
+}
+.m_follow .action {
+  position: absolute;
+  top: 125px;
+  left: 358px;
+}
+.m_follow p {
+  width: 186px;
+  text-align: center;
+}

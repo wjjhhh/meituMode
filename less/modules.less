@@ -1,0 +1,143 @@
+@import 'normalize.css';
+.award{
+	height:35px;
+	line-height:35px;
+	position:absolute;
+	top:114px;
+	left:145px;
+	color:#000;
+	font-size:24px;
+	span{
+		max-width:130px;
+		color:#ff669e;
+		margin:0 15px;
+		display:inline-block;
+		overflow:hidden;
+		vertical-align:bottom;		
+		text-overflow:ellipsis;
+		white-space:nowrap;
+	}	
+}
+// 按钮
+.btn{
+	width:230px;
+	height:70px;
+	position:absolute;	
+}
+//左按钮
+.btn1{
+	left:80px;
+}
+//右按钮
+.btn2{
+	left:330px;
+}
+// 剩余次数
+.left_time{
+	color:#000;
+	text-align:center;
+	position:absolute;
+	bottom:158px;
+	left:0;
+	right:0;
+	span{
+		color:#ff669e;
+	}		
+}
+@header_w:100%;
+@header_h:90px;
+.headerFake{
+	width:@header_w;
+	height:@header_h;
+	background-color:#ff4b73;	
+}
+.header{
+	.headerFake;
+	position:fixed;
+	top:0;
+	z-index:4;
+}
+.wrap{
+	margin:0 auto;
+	width:640px;
+}
+.banner{
+	height:835px;
+	background: url("../img/banner.jpg") no-repeat;
+	position:relative;
+  
+	#userId{
+		width:100%;
+		white-space: nowrap;
+		margin:0 auto;
+		position:absolute;
+		top:640px;
+		text-align:center;
+		span{
+			margin-left:10px;
+		}
+	}
+	.btn{
+		width:320px;
+		height:80px;
+		margin:0 auto;			
+		position:absolute;
+		top:690px;
+		left:0;
+		right:0;
+	}	
+}
+//礼包模块
+@import 'm_gift.less';
+//视频模块
+@import 'm_video.less';
+
+//摇奖模块
+@import 'm_ernie.less';
+
+// 刮奖模块
+@import 'm_scratch.less';
+
+// 九宫格抽奖模块
+@import 'm_squared.less';
+
+//展示横版模板
+@import 'm_s_hor.less';
+
+//展示竖版模板
+@import 'm_s_ver.less';
+
+// 活动规则
+.m_rule{
+	p{
+		color:#000;
+		padding-left:40px;
+		padding-right: 40px;
+		margin-bottom:10px;
+	}
+	p:last-child{
+		padding-bottom:33px;
+	}		
+	.title{
+		color:#ff669e;
+		font-size:28px;		
+	}
+
+}
+
+// 关注我们
+.m_follow{
+	height:400px;
+	background:url("../img/a8.jpg") no-repeat;
+	color:#ff669e;
+	position:relative;
+	.action{
+		position:absolute;
+		top:125px;
+		left:358px;
+	}
+	p{
+		width:186px;
+		text-align:center;
+	}
+}

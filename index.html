@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta charset="utf-8">
+<meta name="author" content="91wan">
+<meta name="copyright" content="91wan">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<meta name="applicable-device" content="mobile">
+<title>美图专题模板</title>
+<link rel="stylesheet" href="css/modules.css">
+<!-- <link rel="stylesheet" href="css/idangerous.swiper.css"> -->
+<script type="text/javascript">
+      if (/Android (\d+\.\d+)/.test(navigator.userAgent)) {
+        var version = parseFloat(RegExp.$1)
+        if (version > 2.3) {
+          var phoneScale = parseInt(window.screen.width) / 640
+          document.write('<meta name="viewport" content="width=640,minimum-scale=' + phoneScale + ',maximum-scale=' + phoneScale + ',target-densitydpi=device-dpi">')
+        } else {
+          document.write('<meta name="viewport" content="width=640,target-densitydpi=device-dpi">')
+        }
+      } else {
+        document.write('<meta name="viewport" content="width=640,user-scalable=no,target-densitydpi=device-dpi,minimal-ui">')
+      }
+</script>
+</head>
+<body>
+  <div class="header"></div>
+  <div class="wrap">
+   <div class="headerFake"></div>
+    <!-- 头部模块 -->
+    <div class="banner">
+      <div id="userId">用户ID:<span>XXXXX</span></div>
+      <div class="ti btn">下载游戏</div>
+    </div>
+
+  <!-- 领取礼包模块 -->
+    <div class="m_gift">
+      <div class="glist1">
+        <span class="g">钻石x100</span>
+        <span class="g">钻石x100</span>
+        <span class="g">钻石x100</span>
+      </div>
+      <a class="btn_gift ti">领取礼包</a>
+    </div>
+
+  <!-- 视频播放模块 -->
+    <div class="m_video">
+      <video id="myVideo" poster="img/s1.jpg" width="100%" height="100%" controls>
+          <source src="img/video.mp4">
+      </video>
+      <div class="tip">温馨提示：视频较大，建议在WIFI网络下观看</div>
+    </div>
+  <!-- 刮奖模块 -->
+    <div class="m_scratch">
+      <div class="award">恭喜<span id="name">XXXXX</span>获得<span id="gift">XXXXX</span></div> 
+      <div class="cover">
+        <a class="btn_gua ti">开始刮奖</a>
+        <img id="robot" src="img/gift8.jpg"/>
+        <img id="redux" src="img/cover.jpg"/>        
+      </div>  
+      <div class="left_time">剩余刮次数：<span>2</span></div>
+      <a class="btn btn1 ti">本期奖品</a>
+      <a class="btn btn2 ti">我的奖品</a>
+    </div>
+
+  <!-- 摇奖模块 -->
+  <div class="m_ernie">
+      <div class="award">恭喜<span id="name">XXXXX</span>获得<span id="gift">XXXXX</span></div>
+      <div class="yao_area">
+        <div class="yao yao1"></div>
+        <div class="yao yao2"></div>
+        <div class="yao yao3"></div>
+      </div>
+      <a class="btn_yao ti">开始摇奖</a>    
+      <div class="left_time">剩余摇奖次数：<span>2</span></div>
+      <a class="btn btn1 ti">本期奖品</a>
+      <a class="btn btn2 ti">我的奖品</a>            
+  </div>
+
+  <!-- 九宫格模块 -->
+  <div class="m_squared">
+      <div class="award">恭喜<span id="name">XXXXX</span>获得<span id="gift">XXXXX</span></div>
+      <div class="gList2">
+        <ul>
+          <a class="btn_chou"></a>
+          <li class="g g1 active" data-sequence="1"><span>精美抱枕</span></li>
+          <li class="g g2" data-sequence="2"><span>精美公仔</span></li>
+          <li class="g g3" data-sequence="3"><span>30元移动充值卡</span></li>
+          <li class="g g5" data-sequence="4"><span>狗狗公仔</span></li>
+          <li class="g g8" data-sequence="5"><span>美图独家礼包</span></li>
+          <li class="g g7" data-sequence="6"><span>美雪时尚套装</span></li>
+          <li class="g g6" data-sequence="7"><span>小马音箱</span></li>
+          <li class="g g4" data-sequence="8"><span>50元京东卡</span></li>
+        </ul>
+      </div>
+      <div class="left_time">剩余抽奖次数：<span>2</span></div>
+      <a class="btn btn1 ti">本期奖品</a>
+      <a class="btn btn2 ti">我的奖品</a>      
+  </div>
+
+  <!-- 展示横版模板 -->
+  <div class="m_s_hor">
+      <div class="swiper-container">
+        <div class="carousel_h swiper-wrapper">
+            <div class="swiper-slide"><img src="img/s1.jpg"/></div>
+            <div class="swiper-slide"><img src="img/s1.jpg"/></div>
+            <div class="swiper-slide"><img src="img/s1.jpg"/></div>
+            <div class="swiper-slide"><img src="img/s1.jpg"/></div>
+            <div class="swiper-slide"><img src="img/s1.jpg"/></div>
+        </div>
+      </div> 
+      <div class="cindex pagination">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>       
+  </div>
+
+  <!-- 展示竖版模板 -->
+  <div class="m_s_ver">
+     <div class="swiper-container featured">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide" style="background-image:url('img/h1.jpg')"></div>
+         <div class="swiper-slide" style="background-image:url('img/h1.jpg')"></div>
+         <div class="swiper-slide" style="background-image:url('img/h1.jpg')"></div>
+         <div class="swiper-slide" style="background-image:url('img/h1.jpg')"></div>
+         <div class="swiper-slide" style="background-image:url('img/h1.jpg')"></div>      
+      </div> 
+     </div>      
+  </div> 
+
+  <!-- 活动规则 -->
+  <div class="m_rule">
+      <p class="title">活动规则：</p>
+      <p>1.活动时间：6月24日~6月29日</p>
+      <p>2.活动期间下载《超级女声》手游即可参与抽奖，重复下载无效</p>
+      <p>3.中实物奖的玩家需在“我的奖品”处填写寄送信息，未填写信息视为放弃奖励</p>
+  </div>
+
+  <!-- 关注我们 -->
+  <div class="m_follow">
+    <div class="action">
+      <p>打开微信搜索</p>
+      <p>meituplay</p>
+      <p>即可关注</p>
+    </div>  
+  </div>
+  </div>
+</body>
+<script data-main="js/main" src="js/require.js"></script> 
+<!-- <script src="js/lib/jquery-1.10.2.min.js"></script>
+<script src="js/other/jquery.eraser.js"></script>
+<script src="js/other/idangerous.swiper.min.js"></script>
+<script src="js/other/idangerous.swiper-2.0.min.js"></script>
+<script src="js/other/idangerous.swiper.3dflow-2.0.js"></script>
+<script src="js/module/gua.js"></script>
+<script src="js/module/slide.js"></script>
+<script src="js/module/slide2.js"></script>
+<script src="js/module/yao.js"></script> -->
+<!-- <script src="js/module/lottery.js"></script> --> -->
+<script type="text/javascript">
+
+
+</script>
+</html>

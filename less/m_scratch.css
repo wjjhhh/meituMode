@@ -1,0 +1,40 @@
+﻿.m_scratch {
+  height: 610px;
+  background: url("../img/a1.jpg") no-repeat;
+  position: relative;
+}
+.m_scratch .cover {
+  width: 480px;
+  height: 240px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 172px;
+  background: url('../img/gua.png') no-repeat;
+}
+.m_scratch .cover .btn_gua {
+  width: 240px;
+  height: 80px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -120px;
+}
+.m_scratch #redux {
+  visibility: hidden;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  left: 0;
+}
+.m_scratch #robot {
+  width: 480px;
+  height: 240px;
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+.m_scratch .btn {
+  top: 477px;
+}

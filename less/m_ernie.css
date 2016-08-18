@@ -1,0 +1,41 @@
+﻿.m_ernie {
+  height: 720px;
+  background: url("../img/a4.jpg") no-repeat;
+  position: relative;
+}
+.m_ernie .yao_area {
+  width: 640px;
+  height: 354px;
+  background: url("../img/yao.png") no-repeat;
+  position: absolute;
+  top: 167px;
+}
+.m_ernie .yao {
+  height: 230px;
+  width: 100px;
+  position: absolute;
+  top: 12px;
+  background: url("../img/y12.jpg") no-repeat;
+  background-repeat-y: initial;
+}
+.m_ernie .yao1 {
+  left: 115px;
+}
+.m_ernie .yao2 {
+  left: 270px;
+}
+.m_ernie .yao3 {
+  left: 425px;
+}
+.m_ernie .btn_yao {
+  width: 240px;
+  height: 80px;
+  position: absolute;
+  top: 441px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.m_ernie .btn {
+  bottom: 63px;
+}

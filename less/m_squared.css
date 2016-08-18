@@ -1,0 +1,75 @@
+﻿.m_squared {
+  height: 850px;
+  background: url("../img/a5.jpg") no-repeat;
+  position: relative;
+}
+.m_squared .gList2 {
+  width: 500px;
+  height: 440px;
+  background: url("../img/gList2.png") no-repeat;
+  position: absolute;
+  top: 190px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.m_squared li,
+.m_squared .btn_chou {
+  width: 160px;
+  height: 140px;
+  position: absolute;
+}
+.m_squared li span {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.m_squared .btn_chou {
+  top: 150px;
+  left: 170px;
+}
+.m_squared .g1,
+.m_squared .g2,
+.m_squared .g3 {
+  top: 0;
+}
+.m_squared .g4,
+.m_squared .btn_chou,
+.m_squared .g5 {
+  top: 50%;
+  margin-top: -70px;
+}
+.m_squared .g6,
+.m_squared .g7,
+.m_squared .g8 {
+  bottom: 0;
+}
+.m_squared .g1,
+.m_squared .g4,
+.m_squared .g6 {
+  left: 0;
+}
+.m_squared .g2,
+.m_squared .btn_chou,
+.m_squared .g7 {
+  left: 50%;
+  margin-left: -80px;
+}
+.m_squared .g3,
+.m_squared .g5,
+.m_squared .g8 {
+  right: 0;
+}
+.m_squared .active {
+  background: url("../img/active.png") no-repeat;
+}
+.m_squared .btn {
+  bottom: 65px;
+}
